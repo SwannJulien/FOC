@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border: solid 2px red;
+  margin-bottom: 20px;
+  height: 70px;
+}
+p {
+  color: #ffff;
+  font-size: 40px;
+}
+body {
+  text-align: center;
+}
