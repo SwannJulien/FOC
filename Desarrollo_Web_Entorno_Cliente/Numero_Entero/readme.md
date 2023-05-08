@@ -1,5 +1,5 @@
-Exercice to start working with function in Javascript.
+# Numero Entero
 
-Link below:
+Exercice to start working with functions and arrays in Javascript.
 
-http://foc-dwes.epizy.com/dwec/04/
+[Link here] (http://foc-dwes.epizy.com/dwec/04/)
