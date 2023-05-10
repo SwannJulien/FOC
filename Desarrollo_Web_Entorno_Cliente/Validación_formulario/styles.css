@@ -1,0 +1,53 @@
+body {
+  padding: 0 20px;
+}
+
+.form {
+  padding: 20px 10px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  background-color: rgb(248 221 247);
+}
+
+label {
+  display: inline-block;
+  text-align: right;
+  width: 100px;
+  font-weight: bold;
+}
+
+.form__inputs {
+  margin-bottom: 15px;
+}
+
+input[type="submit"] {
+  height: 25px;
+  width: 65px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  background-color: black;
+  color: #ffff;
+  text-align: center;
+  height: 100px;
+}
+
+h3 {
+  margin: 0px;
+}
+
+#errorUsuario,
+#errorContrasenia {
+  color: red;
+}
+
+/* Clase que se activa en el HTML mediante el script cuando los datos enviados por el formulario no son correctos */
+
+.active {
+  border: solid 3px red;
+}
