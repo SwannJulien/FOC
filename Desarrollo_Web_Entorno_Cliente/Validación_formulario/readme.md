@@ -1,6 +1,6 @@
 # Form validation
 
-## Instruction
+## Instructions
 
 1. Build a form with two inputs: username and password
 2. When pressing the button "Send", send the form for validation:
