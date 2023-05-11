@@ -6,7 +6,7 @@ var errorContrasenia = document.getElementById("errorContrasenia");
 var submit = document.getElementById("submit");
 
 // Expresiones regulares de validación del formulario
-var regUsuario = /^[a-z]{3,12}$/;
+var regUsuario = /^[a-zA-Z ,.'-]{3,12}$/;
 var regContrasenia = /^[A-Z]{1}[.,-]{1}[a-z0-9]{6}$/;
 
 // Mensajes que se imprimen en pantalla cuando la validación no es correcta
@@ -20,10 +20,15 @@ function validar() {
     errorUsuario.innerHTML = strErrorUsuario; // imprimir mensaje de error
     usuario.className = "active"; // activar la clase que poner un borde rojo al input
   }
+
   if (!regContrasenia.test(contrasenia.value)) {
     errorContrasenia.innerHTML = strErrorContrasenia;
     contrasenia.className = "active";
-  } else location.href = "main.html";
+  }
+
+  if (regUsuario.test(usuario.value) && regContrasenia.test(contrasenia.value)) {
+    location.href = "main.html";
+  }
 }
 
 submit.addEventListener("click", validar, true);
