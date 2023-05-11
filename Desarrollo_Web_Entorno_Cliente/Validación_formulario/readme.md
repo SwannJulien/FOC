@@ -16,4 +16,5 @@
 
 ## Link to the project
 
-Please [click here](http://foc-dwes.epizy.com/dwec/05/) to see this project live. Form Validation project is hosted in Infinity Free server.
+Please [click here](http://foc-dwes.epizy.com/dwec/05/) to see this project live. 
+*Form Validation* project is hosted in Infinity Free server.
