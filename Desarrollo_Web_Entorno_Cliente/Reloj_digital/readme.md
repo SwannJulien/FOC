@@ -1,6 +1,6 @@
 # Reloj Digital
 
-## Instruction
+## Instructions
 
 1. Create an HTML page with a button. When this button is pressed a new window open with these characteristics: a wdith of 210px, a height of 135px, no resizable, no scrollbar and no menubar
 2. The new opened window has to display the current time with the following format: HH:MM:SS
