@@ -1,6 +1,6 @@
 # Numero Entero
 
-## Instruction
+## Instructions
 
 ## What I learned?
 
