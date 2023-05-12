@@ -1,5 +1,10 @@
 # Numero Entero
 
-Exercice to start working with functions and arrays in Javascript.
+## Instruction
 
-Link to the project [here](http://foc-dwes.epizy.com/dwec/04/)
+## What I learned?
+
+## Link to the project
+Please [click here](http://foc-dwes.epizy.com/dwec/04/) to see this project live.
+
+*Numero entero* is hosted in Infinity Free server.
