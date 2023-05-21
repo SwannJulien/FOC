@@ -1,0 +1,39 @@
+body,
+button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+}
+
+body {
+  margin: 20px;
+}
+
+button {
+  padding: 8px 10px;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: #ffff;
+}
+
+button:hover {
+  background-color: #ffff;
+  color: black;
+}
+
+a {
+  display: block;
+  margin-top: 10px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  background-color: black;
+  color: #ffff;
+  text-align: center;
+  height: 100px;
+}
