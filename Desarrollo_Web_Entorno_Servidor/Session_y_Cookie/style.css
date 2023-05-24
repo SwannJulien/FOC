@@ -1,0 +1,44 @@
+body {
+  font-family: Verdana, sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+form {
+  max-width: 350px;
+}
+legend {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+label {
+  margin-bottom: 5px;
+}
+input {
+  height: 25px;
+}
+.btn {
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  height: 25px;
+}
+.dropdown {
+  height: 25px;
+}
+.btn-sesion {
+  width: 120px;
+}
+.flex-inline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.alert {
+  color: red;
+  background-color: yellow;
+  max-width: 350px;
+  text-align: center;
+  font-size: 18px;
+}
