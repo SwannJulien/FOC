@@ -1,0 +1,206 @@
+/********** Estilos globales ***********/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.page-wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.maring-tb-100 {
+  margin: 100px 0;
+}
+
+.btn {
+  background-color: #000;
+  height: 40px;
+  border: none;
+}
+
+input:last-of-type {
+  color: #ffff;
+  background-color: #000;
+  height: 40px;
+  border: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  width: 200px;
+  cursor: pointer;
+  letter-spacing: 1.5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav a {
+  display: inline-block;
+  font-size: 25px;
+  color: #ffff;
+}
+
+nav a:hover {
+  color: rgb(33, 178, 148);
+}
+
+/********** Estilos de articulos.php ***********/
+
+header {
+  background-color: hsla(0, 0%, 0%, 0.6);
+  position: absolute;
+  height: 80px;
+  width: 100%;
+}
+
+ul {
+  margin-bottom: 0;
+  padding-right: 100px;
+}
+
+.banner {
+  width: 100%;
+}
+
+.wrap {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.gap-80 {
+  gap: 80px;
+}
+
+li {
+  list-style: none;
+}
+
+.product__price {
+  font-size: 30px;
+}
+
+.product__description {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.btn-product {
+  width: 100%;
+}
+
+.btn-registro {
+  margin-right: 50px;
+  position: absolute;
+  top: 50px;
+  font-size: 20px;
+  height: 50px;
+  width: 200px;
+}
+
+.flex-right {
+  display: flex;
+  justify-content: flex-end;
+  height: 50px;
+  align-items: center;
+  gap: 50px;
+}
+
+.link {
+  color: #ffff;
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  display: inline-block;
+  width: 100%;
+}
+
+.review-link {
+  font-size: 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: #ffff;
+  text-align: center;
+  height: 100px;
+}
+.m-0 {
+  margin: 0px;
+}
+
+/********** Estilos de reseña ***********/
+
+.review {
+  max-width: 500px;
+  padding: 1px;
+  margin: 30px 0;
+}
+
+.review__user {
+  font-size: 22px;
+  margin: 0;
+}
+
+.review__review {
+  font-style: italic;
+  text-align: left;
+  font-size: 18px;
+}
+
+.review__picture {
+  border-radius: 50%;
+  border: solid rgb(33, 178, 148) 2px;
+}
+
+.review__score {
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.review-flex {
+  align-items: center;
+  gap: 30px;
+}
+
+.user-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.feedback input:first-of-type {
+  height: 100px;
+  width: 500px;
+}
+
+/********** Estilos de registro ***********/
+
+.alert {
+  color: red;
+  font-weight: bold;
+}
+
+.label {
+  margin-bottom: 2px;
+  font-size: 20px;
+}
