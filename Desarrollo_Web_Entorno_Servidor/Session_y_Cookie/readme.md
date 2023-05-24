@@ -11,7 +11,7 @@
 ## What I learned?
 - set up a cookie and destroy it
 - set up a session and destroy it
-- difference between both information storage
+- difference between both
 - crypt() function
 - header(Location:) routing 
 
