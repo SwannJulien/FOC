@@ -2,7 +2,7 @@
 
 ## Instructions
 1. Implement an online shop with PHP using MVC architecture.
-2. Build a register form that simulate to store the user data in a database 
+2. Build a register form that simulate storing the user data in a database 
  
 ## What I learned?
 - MVC architecture and principles
