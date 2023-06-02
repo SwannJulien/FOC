@@ -1,6 +1,6 @@
 # How to use it?
 
-1. Clone this repository in a local directory
+1. Clone this repository in your local directory
 2. Download [XAMPP](https://www.apachefriends.org/es/index.html) to set up a local server
 3. Create a database in PHP My Admin with the following architecture:
   - Tabla Autor (**id**, nombre, apellidos, nacionalidad)
