@@ -1,4 +1,7 @@
 # Link to the project
-http://foc-dwes.epizy.com/dwes/07/src/cliente.php
+Please click here[http://foc-dwes.epizy.com/dwes/07/src/cliente.php
+] to see this project live.
+
+Conexion_BDD-PDO is hosted in Infinity Free server.
 
 
