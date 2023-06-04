@@ -20,7 +20,6 @@ function procesar(evt) {
   function stateChange() {
     if (xhr.readyState == 4 && xhr.status == 200) {
       var resultado = window.JSON.parse(xhr.responseText);
-      console.log(resultado);
       var img = document.getElementById("img");
       var src_attr = img.setAttribute("src", resultado.url);
       var alt_attr = img.setAttribute("alt", "dailymeme");
