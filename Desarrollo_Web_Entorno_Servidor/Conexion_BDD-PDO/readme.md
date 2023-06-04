@@ -2,7 +2,7 @@
 
 ## Instructions
 1. Create a database withe two tables: Autor(**id**, nombre, apellidos, nacionalidad) and Libro(**id**, titulo, fecha_publicacion, id_autor)
-2. With PHP, create a class that contains a function called *conexion* that connect to the BDD through PDO
+2. Using PHP, create a class that contains a function called *conexion* that connect to the BDD through PDO
 3. Create the functions *consultarAutores(id autor)*, *consultarLibros(id libro)*, *consultarDatosLibro(id libro)*
 4. Build a website that display all the autor and the books they published thanks to the class we built previously  
  
