@@ -10,4 +10,4 @@ This subject is all about client side programming: **HTML, CSS, Javascript** but
 
 ## Desarrollo Web Entorno Servidor
 
-This subject focused on server side programming with **PHP**. We have learnt how to built a website using **MVC arquitecture**, how to connect to relational database with **PDO** and work with data and also a learnt the fundamentals of **Symphony and Laravel**.
+This subject focused on server side programming with **PHP**. We have learnt how to built a website using **MVC arquitecture**, how to connect to relational database with **PDO** and work with data and also learnt the fundamentals of **Symphony and Laravel**.
